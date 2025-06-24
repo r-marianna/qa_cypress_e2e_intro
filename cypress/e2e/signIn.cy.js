@@ -13,7 +13,7 @@ describe('Sign In page', () => {
       .should('exist')
       .type('moriarty');
 
-    cy.get('button[type="Submit"]')
+    cy.get('button[type="submit"]')
       .should('exist')
       .click();
 
